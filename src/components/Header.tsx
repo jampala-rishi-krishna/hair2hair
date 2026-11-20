@@ -28,9 +28,9 @@ export default function Header() {
             <div className="flex items-center">
               <a href="/" className="flex items-center mr-12">
                 <div className="flex flex-col">
-                  <h1 className="text-2xl font-serif text-[#C19A6B] leading-tight whitespace-nowrap" style={{ fontFamily: 'Playfair Display, serif' }}>
+                  <span className="text-2xl font-serif text-[#C19A6B] leading-tight whitespace-nowrap" style={{ fontFamily: 'Playfair Display, serif' }}>
                     Hair 2 Hair Studio
-                  </h1>
+                  </span>
                   <p className="text-xs text-gray-600 italic leading-tight">Beauty Meets Comfort</p>
                 </div>
               </a>

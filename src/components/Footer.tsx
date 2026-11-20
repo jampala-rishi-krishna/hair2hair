@@ -12,14 +12,6 @@ export default function Footer() {
             <p className="text-gray-400 mb-4 text-sm leading-relaxed">
               Premium hair replacement solutions, wigs, and patches. We understand your needs and provide natural, undetectable solutions.
             </p>
-            
-            {/* Hidden SEO Content */}
-            <div className="hidden">
-              <h3>H2H Hair Studio - Best Hair Patches & Wigs in Hyderabad, Khammam, Kothagudem, Dilsukhnagar</h3>
-              <p>H2H Hair Studio (Hair2Hair) is the leading hair replacement specialist in Hyderabad, Khammam, Kothagudem, and Dilsukhnagar. We offer premium hair patches, wigs, and non-surgical hair replacement solutions with 15+ years of experience. Our main branch is located in Dilsukhnagar, Hyderabad, serving customers across Telangana.</p>
-              <p>Visit H2H Hair Studio for the best hair patches in Hyderabad, hair studio Khammam services, hair studio Kothagudem solutions, and hair studio Dilsukhnagar expertise. We provide professional hair replacement services including hair patches for men, wigs for women, hair systems, toupees, hair bonding, and complete hair replacement solutions.</p>
-              <p>Our expert team at H2H Hair Studio provides natural-looking hair replacement solutions for men and women. We serve customers from all areas of Hyderabad, Khammam, Kothagudem, Dilsukhnagar, Secunderabad, and surrounding districts in Telangana. Contact us for the best hair studio experience in the region.</p>
-            </div>
             <p className="text-brand-gold italic font-medium mb-4">Beauty Meets Comfort</p>
             <div className="flex gap-3">
               <a href="https://www.facebook.com/share/1BoX9WysMB/" target="_blank" rel="noopener noreferrer" className="bg-[#4A4A4A] p-2 rounded-full hover:bg-brand-primary transition">
@@ -42,9 +34,9 @@ export default function Footer() {
               <li><a href="/services" className="text-gray-400 hover:text-white transition">Services</a></li>
               <li><a href="/gallery" className="text-gray-400 hover:text-white transition">Gallery</a></li>
               <li><a href="/wholesale" className="text-gray-400 hover:text-white transition">Wholesale</a></li>
-              <li><a href="/faq" className="text-gray-400 hover:text-white transition">FAQ</a></li>
-              <li><a href="/privacy" className="text-gray-400 hover:text-white transition">Privacy Policy</a></li>
-              <li><a href="/terms" className="text-gray-400 hover:text-white transition">Terms & Conditions</a></li>
+              <li><a href="/locations/dilsukhnagar/" className="text-gray-400 hover:text-white transition">Dilsukhnagar Studio</a></li>
+              <li><a href="/locations/khammam/" className="text-gray-400 hover:text-white transition">Khammam Studio</a></li>
+              <li><a href="/areas/kukatpally/" className="text-gray-400 hover:text-white transition">Kukatpally Location Info</a></li>
             </ul>
           </div>
 
@@ -56,7 +48,7 @@ export default function Footer() {
               <li><a href="/men" className="text-gray-400 hover:text-white transition">Men's Hair Systems</a></li>
               <li><a href="/women#extensions" className="text-gray-400 hover:text-white transition">Hair Extensions</a></li>
               <li><a href="/wholesale" className="text-gray-400 hover:text-white transition">Wholesale Products</a></li>
-              <li><a href="/care" className="text-gray-400 hover:text-white transition">Care Products</a></li>
+              <li><a href="/services" className="text-gray-400 hover:text-white transition">Care & Maintenance</a></li>
             </ul>
           </div>
 

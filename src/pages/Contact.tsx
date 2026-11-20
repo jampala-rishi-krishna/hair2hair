@@ -71,13 +71,6 @@ export default function Contact() {
             Get In Touch
           </h1>
           <p className="text-xl text-gray-600">We're here to answer all your questions</p>
-          
-          {/* Hidden SEO Content */}
-          <div className="hidden">
-            <h2>Contact H2H Hair Studio - Best Hair Patches & Wigs in Hyderabad, Khammam, Kothagudem, Dilsukhnagar</h2>
-            <p>H2H Hair Studio (Hair2Hair) is your trusted hair replacement specialist in Hyderabad, Khammam, Kothagudem, and Dilsukhnagar. Contact us for premium hair patches, wigs, and non-surgical hair replacement solutions. Our main branch is located in Dilsukhnagar, Hyderabad, serving customers across Telangana.</p>
-            <p>Visit H2H Hair Studio for the best hair patches in Hyderabad, hair studio Khammam services, hair studio Kothagudem solutions, and hair studio Dilsukhnagar expertise. We provide professional hair replacement services with 15+ years of experience.</p>
-          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-8 mb-12">
@@ -87,7 +80,7 @@ export default function Contact() {
             </div>
             <h3 className="font-semibold text-lg mb-3 text-gray-800">
               Main Branch - Hyderabad
-              <span className="block text-sm text-[#C19A6B] font-medium mt-1">Dilshuknagar</span>
+              <span className="block text-sm text-[#C19A6B] font-medium mt-1">Dilsukhnagar</span>
             </h3>
             <p className="text-gray-600 mb-4">
               1st Floor, beside Sai Baba Temple, Pratap Nagar, Dilsukhnagar, Hyderabad, Telangana 500060
@@ -111,7 +104,7 @@ export default function Contact() {
               2nd floor, Star complex, Near new bus stand, Khammam, Telangana 507002
             </p>
             <a
-              href="https://maps.google.com"
+              href="https://www.google.com/maps/search/?api=1&query=H2H%20Hair%202%20Hair%20Studio%2C%20Star%20Complex%2C%20Khammam"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 font-medium hover:text-gray-800 transition"
@@ -246,7 +239,7 @@ export default function Contact() {
               </h2>
               <div className="aspect-video bg-gray-200 rounded-lg mb-6 overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.8!2d80.1514!3d17.2473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDE0JzUwLjMiTiA4MMKwMDknMDUuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                  src="https://www.google.com/maps?q=17.3684658,78.5315941&z=16&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
