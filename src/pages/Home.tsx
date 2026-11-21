@@ -352,10 +352,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-serif text-[#8B1538] mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
-              Enjoy Unrestricted Living with Our Easy-to-Wear Hair Patches
+              Everyday Hair System Care
             </h2>
             <p className="text-xl text-gray-700 mb-8">
-              It feels exactly like your natural hair. When you wear our advanced hair patches, you can
+              The right base and attachment method depend on your routine. Ask the H2H team about wear, washing and maintenance for your selected system.
             </p>
           </div>
           
@@ -363,44 +363,44 @@ export default function Home() {
             {/* Sleep Card */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  {(() => { const Icon = Moon; return <Icon className="text-[#8B1538]" size={64} strokeWidth={1.5} />; })()}
+                  <Moon className="text-[#8B1538]" size={64} strokeWidth={1.5} />
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Sleep</h3>
-                <p className="text-gray-600 text-sm">Comfortable all night</p>
+                <p className="text-gray-600 text-sm">Ask about overnight wear and a comfortable fit.</p>
               </div>
             </div>
             
             {/* Shower Card */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  {(() => { const Icon = Droplets; return <Icon className="text-[#8B1538]" size={64} strokeWidth={1.5} />; })()}
+                  <Droplets className="text-[#8B1538]" size={64} strokeWidth={1.5} />
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Shower</h3>
-                <p className="text-gray-600 text-sm">Water-resistant design</p>
+                <p className="text-gray-600 text-sm">Follow the washing and drying advice for your system.</p>
               </div>
             </div>
             
             {/* Workout Card */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  {(() => { const Icon = Dumbbell; return <Icon className="text-[#8B1538]" size={64} strokeWidth={1.5} />; })()}
+                  <Dumbbell className="text-[#8B1538]" size={64} strokeWidth={1.5} />
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Workout</h3>
-                <p className="text-gray-600 text-sm">Stay active with confidence</p>
+                <p className="text-gray-600 text-sm">Discuss activity level and secure attachment options.</p>
               </div>
             </div>
             
             {/* Ride Card */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  {(() => { const Icon = Bike; return <Icon className="text-[#8B1538]" size={64} strokeWidth={1.5} />; })()}
+                  <Bike className="text-[#8B1538]" size={64} strokeWidth={1.5} />
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Ride</h3>
-                <p className="text-gray-600 text-sm">Adventure without limits</p>
+                <p className="text-gray-600 text-sm">Ask how to care for your system when wearing a helmet.</p>
               </div>
             </div>
           </div>
@@ -411,13 +411,13 @@ export default function Home() {
       <section className="py-12 sm:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl sm:text-4xl font-serif text-center text-[#222] mb-8 sm:mb-16" style={{ fontFamily: 'Playfair Display, serif' }}>
-            Hair Loss (Common Problems)
+            Hair Concerns You Can Discuss with H2H
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {/* Thinning Crown */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
               <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  {(() => { const Icon = Crown; return <Icon className="text-[#8B1538]" size={64} strokeWidth={1.5} />; })()}
+                  <Crown className="text-[#8B1538]" size={64} strokeWidth={1.5} />
                 </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Thinning Crown</h3>
               <p className="text-gray-600 text-sm">Gradual hair loss at the crown area</p>
@@ -426,7 +426,7 @@ export default function Home() {
             {/* All Over Thinning */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
               <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  {(() => { const Icon = Users; return <Icon className="text-[#8B1538]" size={64} strokeWidth={1.5} />; })()}
+                  <Users className="text-[#8B1538]" size={64} strokeWidth={1.5} />
                 </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">All Over Thinning</h3>
               <p className="text-gray-600 text-sm">General hair thinning across the scalp</p>
@@ -435,7 +435,7 @@ export default function Home() {
             {/* Hair Fall */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
               <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  {(() => { const Icon = Activity; return <Icon className="text-[#8B1538]" size={64} strokeWidth={1.5} />; })()}
+                  <Activity className="text-[#8B1538]" size={64} strokeWidth={1.5} />
                 </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Hair Fall</h3>
               <p className="text-gray-600 text-sm">Excessive hair shedding and loss</p>
@@ -444,7 +444,7 @@ export default function Home() {
             {/* Thin Hair */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
               <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  {(() => { const Icon = Sparkles; return <Icon className="text-[#8B1538]" size={64} strokeWidth={1.5} />; })()}
+                  <Sparkles className="text-[#8B1538]" size={64} strokeWidth={1.5} />
                 </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Thin Hair</h3>
               <p className="text-gray-600 text-sm">Lack of volume and density</p>
