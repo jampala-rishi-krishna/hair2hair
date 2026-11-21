@@ -190,7 +190,7 @@ export default function Home() {
           <span className="text-gray-600">•</span>
           <span className="text-[#D4AF37] font-semibold">1000+ Clients</span>
           <span className="text-gray-600">•</span>
-          <span>Hyderabad, Khammam, Kothagudem, Dilsukhnagar</span>
+          <span>Two listed studios: Dilsukhnagar, Hyderabad &amp; Khammam</span>
         </div>
       </div>
 
@@ -281,7 +281,7 @@ export default function Home() {
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img
                 src="/Data/Gemini_Generated_Image_d69vind69vind69v.png"
-                alt="Happy client transformation"
+                alt="Hair replacement visual from Hair 2 Hair Studio"
                 className="w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] object-contain object-center"
               />
             </div>
