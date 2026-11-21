@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Crown, Sparkles, Scissors, Handshake as HandshakeIcon, Check, Star, ChevronLeft, ChevronRight, ArrowRight, Award, Users, Heart, Phone, Moon, Droplets, Dumbbell, Bike, Activity } from 'lucide-react';
+import { Crown, Sparkles, Scissors, Handshake as HandshakeIcon, Check, Star, ChevronLeft, ChevronRight, ArrowRight, Award, Users, Heart, Phone } from 'lucide-react';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import GoogleReviews from '../components/GoogleReviews';
@@ -82,21 +82,18 @@ export default function Home() {
 
   const transformationImages = [
     {
-      image: '/Data/home_page1.png',
-      caption: 'H2H Hair Replacement Solutions'
+      image: "https://www.bglamhairstudio.com/wp-content/uploads/2024/03/HairPatch.jpg.webp",
+      caption: "Premium Hair Patch Solution"
     },
     {
-      image: '/Data/home_page3.jpg',
-      caption: 'Hair System & Patch Options'
+      image: "https://www.bglamhairstudio.com/wp-content/uploads/2024/03/image1.jpg.webp",
+      caption: "Natural Hair Restoration"
     },
     {
-      image: '/Data/main_img1.jpeg',
-      caption: 'Hair 2 Hair Studio Services'
+      image: "https://www.bglamhairstudio.com/wp-content/uploads/2024/03/120392424_3612544725444814_3743994574969795556_n.jpg",
+      caption: "Professional Hair System"
     },
   ];
-
-
-  
 
 
   const whyChooseUs = [
@@ -362,8 +359,12 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Sleep Card */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  <Moon className="text-[#8B1538]" size={64} strokeWidth={1.5} />
+              <div className="relative overflow-hidden rounded-xl mb-4">
+                  <img
+                    src="https://www.bglamhairstudio.com/wp-content/uploads/2025/05/hairpatchSleep.webp"
+                    alt="Sleep comfortably"
+                    className="w-full h-48 object-cover"
+                  />
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Sleep</h3>
@@ -373,8 +374,12 @@ export default function Home() {
             
             {/* Shower Card */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  <Droplets className="text-[#8B1538]" size={64} strokeWidth={1.5} />
+              <div className="relative overflow-hidden rounded-xl mb-4">
+                  <img
+                    src="https://www.bglamhairstudio.com/wp-content/uploads/2025/05/hairpatchshower.webp"
+                    alt="Shower freely"
+                    className="w-full h-48 object-cover"
+                  />
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Shower</h3>
@@ -384,8 +389,12 @@ export default function Home() {
             
             {/* Workout Card */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  <Dumbbell className="text-[#8B1538]" size={64} strokeWidth={1.5} />
+              <div className="relative overflow-hidden rounded-xl mb-4">
+                  <img
+                    src="https://www.bglamhairstudio.com/wp-content/uploads/2025/05/hairpatchworkout.webp"
+                    alt="Workout actively"
+                    className="w-full h-48 object-cover"
+                  />
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Workout</h3>
@@ -395,8 +404,12 @@ export default function Home() {
             
             {/* Ride Card */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  <Bike className="text-[#8B1538]" size={64} strokeWidth={1.5} />
+              <div className="relative overflow-hidden rounded-xl mb-4">
+                  <img
+                    src="https://www.bglamhairstudio.com/wp-content/uploads/2025/05/hairpatchride.webp"
+                    alt="Ride freely"
+                    className="w-full h-48 object-cover"
+                  />
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Ride</h3>
@@ -416,8 +429,12 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {/* Thinning Crown */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
-              <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  <Crown className="text-[#8B1538]" size={64} strokeWidth={1.5} />
+              <div className="relative overflow-hidden rounded-xl mb-4">
+                  <img
+                    src="https://www.bglamhairstudio.com/wp-content/uploads/2025/05/Hair-Patch-1.1.webp"
+                    alt="Thinning Crown"
+                    className="w-full h-48 object-cover"
+                  />
                 </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Thinning Crown</h3>
               <p className="text-gray-600 text-sm">Gradual hair loss at the crown area</p>
@@ -425,8 +442,12 @@ export default function Home() {
             
             {/* All Over Thinning */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
-              <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  <Users className="text-[#8B1538]" size={64} strokeWidth={1.5} />
+              <div className="relative overflow-hidden rounded-xl mb-4">
+                  <img
+                    src="https://www.bglamhairstudio.com/wp-content/uploads/2025/05/Hair-Patch-4.webp"
+                    alt="All Over Thinning"
+                    className="w-full h-48 object-cover"
+                  />
                 </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">All Over Thinning</h3>
               <p className="text-gray-600 text-sm">General hair thinning across the scalp</p>
@@ -434,8 +455,12 @@ export default function Home() {
             
             {/* Hair Fall */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
-              <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  <Activity className="text-[#8B1538]" size={64} strokeWidth={1.5} />
+              <div className="relative overflow-hidden rounded-xl mb-4">
+                  <img
+                    src="https://www.bglamhairstudio.com/wp-content/uploads/2025/05/Shot-hair-problem-2.webp"
+                    alt="Hair Fall"
+                    className="w-full h-48 object-cover"
+                  />
                 </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Hair Fall</h3>
               <p className="text-gray-600 text-sm">Excessive hair shedding and loss</p>
@@ -443,8 +468,12 @@ export default function Home() {
             
             {/* Thin Hair */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
-              <div className="flex h-48 items-center justify-center rounded-xl mb-4 bg-gradient-to-br from-[#fff8ef] to-[#f1e2d7]" aria-hidden="true">
-                  <Sparkles className="text-[#8B1538]" size={64} strokeWidth={1.5} />
+              <div className="relative overflow-hidden rounded-xl mb-4">
+                  <img
+                    src="https://www.bglamhairstudio.com/wp-content/uploads/2025/05/Shot-hair-problem-3.webp"
+                    alt="Thin Hair"
+                    className="w-full h-48 object-cover"
+                  />
                 </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Thin Hair</h3>
               <p className="text-gray-600 text-sm">Lack of volume and density</p>
