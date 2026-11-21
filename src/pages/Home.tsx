@@ -349,10 +349,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-serif text-[#8B1538] mb-4" style={{ fontFamily: 'Playfair Display, serif' }}>
-              Everyday Hair System Care
+              Enjoy Unrestricted Living with Our Easy-to-Wear Hair Patches
             </h2>
             <p className="text-xl text-gray-700 mb-8">
-              The right base and attachment method depend on your routine. Ask the H2H team about wear, washing and maintenance for your selected system.
+              It feels exactly like your natural hair. When you wear our advanced hair patches, you can
             </p>
           </div>
           
@@ -368,7 +368,7 @@ export default function Home() {
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Sleep</h3>
-                <p className="text-gray-600 text-sm">Ask about overnight wear and a comfortable fit.</p>
+                <p className="text-gray-600 text-sm">Comfortable all night</p>
               </div>
             </div>
             
@@ -383,7 +383,7 @@ export default function Home() {
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Shower</h3>
-                <p className="text-gray-600 text-sm">Follow the washing and drying advice for your system.</p>
+                <p className="text-gray-600 text-sm">Water-resistant design</p>
               </div>
             </div>
             
@@ -398,7 +398,7 @@ export default function Home() {
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Workout</h3>
-                <p className="text-gray-600 text-sm">Discuss activity level and secure attachment options.</p>
+                <p className="text-gray-600 text-sm">Stay active with confidence</p>
               </div>
             </div>
             
@@ -413,7 +413,7 @@ export default function Home() {
                 </div>
               <div className="text-center">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">Ride</h3>
-                <p className="text-gray-600 text-sm">Ask how to care for your system when wearing a helmet.</p>
+                <p className="text-gray-600 text-sm">Adventure without limits</p>
               </div>
             </div>
           </div>
@@ -424,7 +424,7 @@ export default function Home() {
       <section className="py-12 sm:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl sm:text-4xl font-serif text-center text-[#222] mb-8 sm:mb-16" style={{ fontFamily: 'Playfair Display, serif' }}>
-            Hair Concerns You Can Discuss with H2H
+            Hair Loss (Common Problems)
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {/* Thinning Crown */}
@@ -486,7 +486,7 @@ export default function Home() {
       <section className="py-12 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl sm:text-4xl font-serif text-center text-[#222] mb-8 sm:mb-16" style={{ fontFamily: 'Playfair Display, serif' }}>
-            H2H Hair Solutions & Studio Showcase
+            Transformations That Speak
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {transformationImages.map((item, index) => (
